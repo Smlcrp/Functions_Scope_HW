@@ -9,10 +9,10 @@
 
 //Calculate The Cube
 /*function calculateCube(num) {
-    return num*num*num;
+    return Math.pow(num, 3);
 }
 console.log(calculateCube(5))
-*/
+
 
 
 //Is A Vowel
@@ -25,3 +25,16 @@ function isAVowel(letter) {
     }return false;
 } 
 console.log(isAVowel("o"))
+*/
+
+
+
+//Get Two Lengths
+function getTwoLengths(a, b) {
+    myArr = []
+    myArr.push(a.length);
+    myArr.push(b.length);
+    return myArr;
+}
+
+console.log(getTwoLengths("hank", "Hippopopalous"))
