@@ -8,7 +8,20 @@
 
 
 //Calculate The Cube
-function calculateCube(num) {
+/*function calculateCube(num) {
     return num*num*num;
 }
 console.log(calculateCube(5))
+*/
+
+
+//Is A Vowel
+vowelArray = ["a","e","i","o","u"];
+function isAVowel(letter) {
+    for(let i=0; i<vowelArray.length; i++) {
+        if(letter = vowelArray[i]) {
+            return true;
+        }
+    }return false;
+} 
+console.log(isAVowel("o"))
