@@ -5,3 +5,10 @@
 *
 * 3. The ability of a function to return values implies that you can use the returned values of functions to solve other functions to solve complex problems 
 */
+
+
+//Calculate The Cube
+function calculateCube(num) {
+    return num*num*num;
+}
+console.log(calculateCube(5))
