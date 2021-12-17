@@ -25,7 +25,7 @@ function isAVowel(letter) {
     }return false;
 } 
 console.log(isAVowel("o"))
-*/
+
 
 
 
@@ -38,3 +38,18 @@ function getTwoLengths(a, b) {
 }
 
 console.log(getTwoLengths("hank", "Hippopopalous"))
+*/
+
+
+
+// Sum Array
+function sumArray(array) {
+   let sum = 0;
+   for(let i=0; i < array.length; i++) {
+       sum += array[i];
+   }
+   return sum;
+}
+console.log(sumArray([1, 2, 3, 4, 5, 6]))
+
+
