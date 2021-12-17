@@ -38,7 +38,7 @@ function getTwoLengths(a, b) {
 }
 
 console.log(getTwoLengths("hank", "Hippopopalous"))
-*/
+
 
 
 
@@ -51,5 +51,29 @@ function sumArray(array) {
    return sum;
 }
 console.log(sumArray([1, 2, 3, 4, 5, 6]))
+*/
+
+
+
+// Prime Numbers
+function checkPrime(num) {
+    for(let i=2; i<num; i++) {
+        if(num % i === 0) {
+            return false;
+        }
+    }return true;
+}
+
+function printPrimes(num) {
+    //loop over numbers
+    for(let i = 2; i <= num; i++) {
+        //check if numbers are prime
+        if(checkPrime(i)) {
+            //print out prime numbers
+            console.log(i)
+        }
+    }
+}
+printPrimes(97)    
 
 
