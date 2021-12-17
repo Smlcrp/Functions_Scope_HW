@@ -51,7 +51,7 @@ function sumArray(array) {
    return sum;
 }
 console.log(sumArray([1, 2, 3, 4, 5, 6]))
-*/
+
 
 
 
@@ -75,5 +75,21 @@ function printPrimes(num) {
     }
 }
 printPrimes(97)    
+*/
 
 
+
+// Print Longest Word
+function printLongestWord(array) {
+    let longestWord = "";
+    //loop over array of strings
+    for(let i = 0; i < array.length; i++) {
+        //find the length of each string
+        //check if current word is longer than longestWord
+        if(array[i].length > longestWord.length) {
+            longestWord = array[i]
+        } 
+    }
+    return longestWord;
+}
+console.log(printLongestWord(["Supercalafragilisticexpialidocious", "BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "blob"]));
